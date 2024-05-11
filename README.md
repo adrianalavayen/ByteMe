@@ -8,10 +8,3 @@ public class Calculadora {
     }
 }
 ```
-Adicion del metodo restar en la Clase Calculadora
-```java 
-public double restar(double num1, double num2) {
-        Resta resta = new Resta();
-        return resta.operar(num1, num2);
-    }
-```
