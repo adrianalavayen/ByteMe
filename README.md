@@ -8,3 +8,29 @@ public class Calculadora {
     }
 }
 ```
+
+Adicion del metodo restar en la clase Calculadora
+
+```java
+public double restar(double num1, double num2) {
+        Resta resta = new Resta();
+        return resta.operar(num1, num2);
+    }
+```
+
+Adicion del metodo multiplicar en la clase Calculadora
+
+```java
+public double multiplicar(double num1, double num2) {
+        Multiplicacion multiplicacion = new Multiplicacion();
+        return multiplicacion.operar(num1, num2);
+    }
+```
+Adicion del metodo dividir en la clase Calculadora
+
+```java
+public double dividir(double num1, double num2) {
+        Division division = new Division();
+        return division.operar(num1, num2);
+    }
+```
