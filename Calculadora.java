@@ -7,4 +7,8 @@ public class Calculadora {
         Resta resta = new Resta();
         return resta.operar(num1, num2);
     }
+    public double multiplicar(double num1, double num2) {
+        Multiplicacion multiplicacion = new Multiplicacion();
+        return multiplicacion.operar(num1, num2);
+    }
 }
