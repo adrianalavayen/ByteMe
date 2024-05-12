@@ -1,5 +1,6 @@
 AgreCreacion de la clase Calculadora con el metodo dividir
-public class Calculadora {
+
+    public class Calculadora {
     public static int dividir(int num1, int num2) {
         if (num2 == 0) {
             throw new ArithmeticException("No se puede dividir por cero");
